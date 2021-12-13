@@ -11,9 +11,11 @@
   background-attachment: fixed;
   gap: 20px;
 }
+
 #parallax .description {
   padding: 0 10px;
 }
+
 #parallax a{
   color:#fce51d;
   padding: 15px;
