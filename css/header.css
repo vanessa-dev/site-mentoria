@@ -1,0 +1,30 @@
+.menu {
+  background-color: #000;
+  position: fixed;
+  padding: 2px;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin: 15px;
+ }
+ 
+ .menu li > a {
+  color: #fff;
+  text-align: center;
+  border: 1px solid rgb(252, 229, 29);
+  padding: 10px;
+ }
+ 
+ h1 a  {
+  color: #fff;
+ }
