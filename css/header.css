@@ -4,6 +4,7 @@
   padding: 2px;
   color: #fff;
   width: 100%;
+  height: 140px;
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: column; */
@@ -27,4 +28,4 @@
  
  h1 a  {
   color: #fff;
- }
+}
