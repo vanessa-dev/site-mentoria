@@ -27,77 +27,85 @@
     </section>
     <section id="produtos">
       <h2 class="sub-titulo">Produtos</h2>
-      <div class="produtos__item">
-        <header>
-          <img src="img/esporte.svg" alt="bicicleta">
-        </header>
-        <div class="description">
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+      <div class="produtos__container">
+        <div class="produtos__item">
+          <header>
+            <img src="img/esporte.svg" alt="bicicleta">
+          </header>
+          <div class="description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+        <div class="produtos__item">
+          <header>
+            <img src="img/esporte.svg" alt="bicicleta">
+          </header>
+          <div class="description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+        <div class="produtos__item">
+          <header>
+            <img src="img/esporte.svg" alt="bicicleta">
+          </header>
+          <div class="description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
         </div>
       </div>
-      <div class="produtos__item">
-        <header>
-          <img src="img/esporte.svg" alt="bicicleta">
-        </header>
-        <div class="description">
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-        </div>
-      </div>
-      <div class="produtos__item">
-        <header>
-          <img src="img/esporte.svg" alt="bicicleta">
-        </header>
-        <div class="description">
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-        </div>
-      </div>
+      
     </section>
     <section id="galeria">
       <h2 class="sub-titulo">Galeria</h2>
-      <div>
-        <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
-        <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
-        <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
-      </div>
-      <div>
-        <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
-        <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
-        <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
+      <div class="galeria__fotos">
+        <div>
+          <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
+          <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
+          <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
+        </div>
+        <div>
+          <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
+          <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
+          <img class="galeria__item" src="img/bike.jpg" alt="Bicicleta" />
+        </div>
       </div>
     </section>
     <section id="contato">
       <h2 class="sub-titulo">Contato</h2>
-      <div class="contato__endereco">
-       <div>
-          <p><i class="fas fa-address-card"></i> Endereco: Avenida das Perdiz, Uirapuru - Go.</p>
-          <p><i class="fas fa-tty"></i> Telefone: (62) 9 8234-5678.</p>
-          <p><i class="fas fa-envelope-open-text"></i> Email: Bike@outlook.com</p>
-          <p><i class="fas fa-clock"></i> Horário de Atendimento: Das 8:00 ás 18:00</p>
-       </div>
+      <div class="contato__info">
+        <div class="contato__endereco">
+          <div>
+             <p><i class="fas fa-address-card"></i> Endereco: Avenida das Perdiz, Uirapuru - Go.</p>
+             <p><i class="fas fa-tty"></i> Telefone: (62) 9 8234-5678.</p>
+             <p><i class="fas fa-envelope-open-text"></i> Email: Bike@outlook.com</p>
+             <p><i class="fas fa-clock"></i> Horário de Atendimento: Das 8:00 ás 18:00</p>
+          </div>
+         </div>
+         <div class="contato__formulario">
+           <form action="./" method="GET">
+             <div>
+               <label for="nome">Nome</label>
+               <input type="text" id="nome" placeholder="Nome" required>
+             </div>
+             <div>
+               <label for="email">Email</label>
+               <input type="email" id="email" placeholder="E-mail" required>
+             </div>
+             <div>
+               <label for="mensagem">Mensagem</label>
+               <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
+             </div>
+             <div>
+               <button type="submit">Enviar</button>
+             </div>
+           </form>
+         </div>
       </div>
-      <div class="contato__formulario">
-        <form action="./" method="GET">
-          <div>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" placeholder="Nome" required>
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="E-mail" required>
-          </div>
-          <div>
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
-          </div>
-          <div>
-            <button type="submit">Enviar</button>
-          </div>
-        </form>
-      </div>
+    
     </section>
   </main>
   <footer>
-    <p>&copy;Todos os direitos Reservados.</p>
+    <p>&copy; Todos os direitos Reservados.</p>
   </footer>
 </body>
 </html>

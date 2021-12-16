@@ -1,6 +1,9 @@
 
 #produtos {
   padding: 10px 0;
+}
+
+#produtos .produtos__container {
   display: flex;
   flex-direction: column;
   align-items: center;
