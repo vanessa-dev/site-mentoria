@@ -18,6 +18,7 @@ a {
 
 .sub-titulo {
   text-align: center;
+  margin-bottom: 25px;
 }
 .sub-titulo::after {
   content: "";

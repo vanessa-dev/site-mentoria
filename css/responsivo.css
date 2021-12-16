@@ -1,0 +1,17 @@
+@media (min-width: 768px) { 
+  .menu {
+    height: 100px;
+    justify-content: space-around;
+  }
+
+  #produtos .produtos__container, #galeria .galeria__fotos, #contato .contato__info {
+    flex-direction: row;
+    justify-content: center;
+  }
+  #parallax {
+    margin-top: 100px;
+  }
+  /* #contato .contato__info {
+    align-items: flex-start;
+  } */
+}

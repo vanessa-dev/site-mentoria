@@ -1,6 +1,9 @@
 #contato {
   background: #fce51d;
   padding: 15px;
+}
+
+#contato .contato__info {
   display: flex;
   flex-direction: column;
   align-items: center;
